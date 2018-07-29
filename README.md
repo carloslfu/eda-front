@@ -1,6 +1,6 @@
-# Using EDA in frontend
+# Using EDA in the frontend
 
-Using CQRS / ES in the frontend, my objective is to make an ubiquotus framework for both server and client side and as starting point this library implement the frontend part. This library should work well with a client side that uses EDA, CQRS / ES and microservices, thats the main goal, we can share code or interfaces (TypeScript).
+Using CQRS / ES (EDA) in the frontend, my objective is to make an ubiquitous framework for both server and client side and as starting point this library implement the frontend part. This library should work well with a client side that uses EDA, CQRS / ES and microservices, that's the main goal and this way we can share code between client and server.
 
 The implementation is simple, is event centric, thus uses an event bus as central part of the architecture. Some points:
 
